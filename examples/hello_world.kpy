@@ -1,0 +1,3 @@
+에서 dotenv 불러오기 load_dotenv
+
+출력("안녕, 세계!")
