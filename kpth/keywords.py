@@ -1,4 +1,4 @@
-KOREAN_TO_PY_KEYWORDS = {
+한국어_파이썬_예약어 = {
     # ----- 파이썬 예약어 (keywords) -----
     # 논리값 / None
     "거짓": "False",
