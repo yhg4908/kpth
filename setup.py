@@ -15,7 +15,7 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'ㅋㅍ=kpth.중앙:메인',
+            'ㅋㅍ=kpth.중앙:주_실행',
         ]
     },
     install_requires=[],
