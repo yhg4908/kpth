@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='kpth',
     version='0.1.0',
-    description='Korean-based Python syntax translator',
+    description='Korean-based Python syntax translator | 한국어 파이썬 번역기',
     author='rainy58',
     author_email='yhg4908@kakao.com',
     long_description=open('README.md').read() if open('README.md', 'r').read() else '',
@@ -30,5 +30,5 @@ setup(
     ],
     python_requires='>=3.10',
     package_data={'': ['LICENSE', 'README.md']},
-    keywords='korea korean python kpy kpth',
+    keywords='korea korean python kpy kpth 한국어 한국 파이썬',
 )
