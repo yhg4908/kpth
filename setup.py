@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='kpth',
+    name='kptha',
     version='0.1.0',
     description='Korean-based Python syntax translator | 한국어 파이썬 번역기',
     author='rainy58',
