@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='kptha',
-    version='0.1.0',
+    version='0.2.0',
     description='Korean-based Python syntax translator | 한국어 파이썬 번역기',
     author='rainy58',
     author_email='yhg4908@kakao.com',
