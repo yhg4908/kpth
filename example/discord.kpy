@@ -1,0 +1,16 @@
+불러오기 discord
+
+토큰 = '봇의 토큰'
+
+intent = discord.Intents.all()
+클라이언드 = discord.Client(intent=intent)
+
+@클라이언트.event
+비동기 정의 on_message(message):
+    만약 message.author == 클라이언트.user:
+        반환
+
+    만약 message.contentstartswith('!핑'):
+        기다림 message.channel.send("퐁!")
+
+클라이언트.run(토큰)
