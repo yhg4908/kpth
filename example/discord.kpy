@@ -5,7 +5,7 @@
 intents = discord.Intents.default()
 intents.message_content = True
 
-클라이언트 = discord.Client(intent=intent)
+클라이언트 = discord.Client(intents=intents)
 
 @클라이언트.event
 비동기 정의 on_message(message):
