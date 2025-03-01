@@ -2,7 +2,9 @@
 
 토큰 = '봇의 토큰'
 
-intent = discord.Intents.all()
+intents = discord.Intents.default()
+intents.message_content = True
+
 클라이언드 = discord.Client(intent=intent)
 
 @클라이언트.event
