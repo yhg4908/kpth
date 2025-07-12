@@ -5,7 +5,7 @@ setup(
     version='0.2.0',
     description='Korean-based Python syntax translator | 한국어 파이썬 번역기',
     author='rainy58',
-    author_email='yhg4908@kakao.com',
+    author_email='yhg4908@naver.com',
     long_description=open('README.md').read() if open('README.md', 'r').read() else '',
     long_description_content_type='text/markdown',
     project_urls={
